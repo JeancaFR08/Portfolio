@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Jeancarlo Flores Rojas</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Media/Logo JCFR.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+</head>
+<body>
+    <header class="bgHeader clrTxt">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="Media/Logo JCFR.png" alt="Logo" class="img-fluid logo-img" id="about">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ac">
+                        <a class="nav-link active" href="#about">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROYECTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">CURRICULUM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Menu de Pestañas -->
+    <div class="container mt-5">
+        <ul class="nav nav-tabs centrar" role="tablist">
+            <li class="nav-item separar">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#portafolio" role="tab" aria-controls="home" aria-selected="true">INICIO</a>
+            </li>
+            <li class="nav-item separar">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">SOBRE MÍ</a>
+            </li>
+            <li class="nav-item separar">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#mision" role="tab" aria-controls="contact" aria-selected="false">MISIÓN</a>
+            </li>
+            <li class="nav-item separar">
+                <a class="nav-link" id="tab4-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">VISIÓN</a>
+            </li>
+            <li class="nav-item separar">
+                <a class="nav-link" id="tab5-tab" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">VALORES</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="portafolio" role="tabpanel" aria-labelledby="home-tab">
+                <img src="Media/Inicio.png" class="img-fluid">
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <img src="Media/Perfil.png" class="img-fluid">
+            </div>
+            <div class="tab-pane fade" id="mision" role="tabpanel" aria-labelledby="contact-tab">
+                <img src="Media/Mision.png" class="img-fluid">
+            </div>
+            <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+                <img src="Media/Vision.png" class="img-fluid">
+            </div>
+            <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab5-tab">
+                <img src="Media/Valores.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="divProyect text-center">
+        <img src="Media/Proyectos.png" class="proyect img-fluid" alt="" id="projects">
+        <div class="d-flex justify-content-center mt-3">
+            <img src="Media/Juegos.png" class="juegos img-fluid" alt="">
+        </div>
+        <p style="padding-top: 15px;">
+            He desarrollado juegos para Android en la agencia CAM 360 utilizando Android Studio con Kotlin como lenguaje de programación.<br>
+            Estos juegos fueron creados para varias marcas y clientes.
+        </p>
+    </div>
+
+    <div class="padre">
+        <div class="contenedor"> 
+            <div class="juegoIzq"> <!-- JUEGO DE PAREJAS PRO -->
+                <!-- Carrusel de imágenes -->
+                <div id="carouselExample1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Media/Carga.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/Menu.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/JuegoExpuesto.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/juegoOculto.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/VictoriaVisual.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/derrotaVisual.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+            <div class="txtDer">
+                <p class="acomodarTxtDer">Juego desarrollado para PRO, con el objetivo de encontrar todas las parejas de cartas ocultas en un tiempo límite. Si logras encontrar todas las parejas antes de que se acabe el tiempo, ganas. Si no lo haces, pierdes.<br>
+                    <b>Escenas:</b><br>
+                    <b>Carga:</b> La pantalla que se muestra mientras se cargan los recursos del juego.<br>
+                    <b>Menú:</b> La pantalla principal donde los jugadores pueden iniciar el juego, acceder a la configuración o ver instrucciones.<br>
+                    <b>Juego oculto:</b> La pantalla de juego con todas las cartas boca abajo, esperando que los jugadores encuentren parejas.<br>
+                    <b>Juego revelado:</b> La pantalla de juego que muestra las cartas que ha volteado el jugador.<br>
+                    <b>Victoria:</b> La pantalla que se muestra cuando el jugador encuentra con éxito todos los pares antes de que se acabe el tiempo, mostrando un mensaje de victoria y una puntuación.<br>
+                    <b>Derrota:</b> La pantalla que se muestra cuando el jugador no logra encontrar todas las parejas dentro del límite de tiempo, mostrando un mensaje de pérdida y la puntuación final.</p>
+            </div>
+        </div>
+        <div class="contenedor"> <!-- JUEGO DE SANDWICH CINTA AZUL -->
+            <div class="txtIzq">
+                <p class="acomodarTxtIzq">Juego desarrollado para Cinta Azul, donde el objetivo es armar un sándwich con el producto de Cinta Azul en el menor tiempo posible para conseguir la victoria. De lo contrario, sería una derrota.<br>
+                    <b>Escenas:</b><br>
+                    <b>Carga:</b> La pantalla que se muestra mientras se cargan los recursos del juego.<br>
+                    <b>Menú:</b> La pantalla principal donde los jugadores pueden iniciar el juego, acceder a la configuración o ver instrucciones.<br>
+                    <b>Juego:</b> La pantalla de juego donde los jugadores arman el sándwich con los productos de Cinta Azul.<br>
+                    <b>Victoria:</b> La pantalla que se muestra cuando el jugador arma el sándwich en el menor tiempo posible, mostrando un mensaje de victoria y el tiempo logrado. <br>
+                    <b>Derrota:</b> La pantalla que se muestra cuando el jugador no logra armar el sándwich en el tiempo requerido, mostrando un mensaje de derrota y el tiempo transcurrido.</p>
+            </div>
+            <div class="juegoDer">
+                <!-- Carrusel de imágenes -->
+                <div id="carouselExample2" class="carousel slide vertical" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Media/CargaSand3.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/MenuSand.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/JuegoSand.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/VictoriaSand.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/DerrotaSand.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor"><!-- JUEGO DE ENCONTRAR OBJETOS -->
+            <div class="juegoIzq">
+                <!-- Carrusel de imágenes -->
+                <div id="carouselExample3" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Media/CargaEncontrar.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/menuEncontrar.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/Juego.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/Final.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+            <div class="txtDer">
+                <p class="acomodarTxtDer">Juego desarrollado para PIPASA, la dinámica del juego 
+                    consiste en encontrar lo objetos ocultos del juego con la lista que está en la 
+                    parte inferior.<br>
+                    <b>Escenas:</b><br>
+                    <b>Carga:</b> La pantalla que se muestra mientras se cargan los recursos del juego.<br>
+                    <b>Menú:</b> La pantalla principal donde los jugadores pueden iniciar el juego, acceder a la configuración o ver instrucciones.<br>
+                    <b>Juego:</b> La pantalla de juego que muestra los objetos ocultos y objetos a encontrar.<br>
+                    <b>Victoria:</b> La pantalla que se muestra cuando el jugador encuentra con éxito todos los objetos antes de que se acabe el tiempo, mostrando un mensaje de victoria y una puntuación.<br>
+                    <b>Derrota:</b> La pantalla que se muestra cuando el jugador no logra encontrar todos objetos ocultos dentro del límite de tiempo, mostrando un mensaje de pérdida y la puntuación final.</p>
+            </div>
+        </div>
+        <div class="contenedor"><!-- JUEGO DE ATRAPAR -->
+            <div class="txtIzq">
+                <p class="acomodarTxtIzq">Juego desarrollado para PIPASA, al dinámica del juego 
+                    consiste atrapar una cantidad de pollos antes de que el tiempo acabe, si se 
+                    consigue se obtiene la victoria o de lo contrario la derrota.<br>
+                    <b>Escenas:</b><br>
+                    <b>Carga:</b> La pantalla que se muestra mientras se cargan los recursos del juego.<br>
+                    <b>Menú:</b> La pantalla principal donde los jugadores pueden iniciar el juego, acceder a la configuración o ver instrucciones.<br>
+                    <b>Juego:</b> La pantalla de juego donde los jugadores tratan de colectar el objetivo de items que caen.<br>
+                    <b>Victoria:</b> La pantalla que se muestra cuando el jugador logra atrapar los items en el menor tiempo posible, mostrando un mensaje de victoria y el tiempo logrado. <br>
+                    <b>Derrota:</b> La pantalla que se muestra cuando el jugador no logra atrapar los items en el tiempo requerido, mostrando un mensaje de derrota y el tiempo transcurrido.</p>
+            </div>
+            <div class="juegoDer">
+                <!-- Carrusel de imágenes -->
+                <div id="carouselExample4" class="carousel slide vertical" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Media/CargaPollo.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/MenuPollo.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/JuegoPollo.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/VictoriaPollo.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Media/DerrotaPollo.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample4" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample4" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="paginas"></div>
+
+    <div class="divProyect text-center">
+        <div class="d-flex justify-content-center mt-3">
+            <img src="Media/Web.png" class="juegos img-fluid" alt="">
+        </div>
+        <p class="txtWeb" style="padding-top: 15px;">
+            En la agencia de marketing Cam360 he desarrollado varios sitios 
+            web utilizando WordPress. Mi trabajo incluye la construcción inicial 
+            de los sitios web, así como su mantenimiento continuo y actualizaciones 
+            periódicas de contenidos y funcionalidades. Me aseguro de que los sitios 
+            web estén optimizados para un rendimiento óptimo, sean visualmente atractivos 
+            y brinden una experiencia de usuario fluida. Además, implemento medidas de 
+            seguridad y realizo mejoras periódicas para mantener los sitios web actualizados 
+            y relevantes de acuerdo con las necesidades de los clientes y las tendencias del mercado.
+        </p>
+    </div>
+
+    <div class="image-gallery">
+        <div class="image-item">
+            <img src="Media/manpa.png" alt="Original Image">
+            <a href="https://manpalider.com/" target="_blank" class="image-link">
+                <img src="Media/Vermas.png" alt="Hovered Image">
+            </a>
+        </div>
+        <div class="image-item">
+            <img src="Media/pipasa.png" alt="Original Image">
+            <a href="https://navidad.cam360cr.com/" target="_blank" class="image-link">
+                <img src="Media/Vermas.png" alt="Hovered Image">
+            </a>
+        </div>
+        <div class="image-item">
+            <img src="Media/fbllc.png" alt="Original Image">
+            <a href="https://www.fullbrandsllc.com/" target="_blank" class="image-link">
+                <img src="Media/Vermas.png" alt="Hovered Image">
+            </a>
+        </div>
+        <div class="image-item">
+            <img src="Media/ferretero.png" alt="Original Image">
+            <a href="https://resistolferretero.com/" target="_blank" class="image-link">
+                <img src="Media/Vermas.png" alt="Hovered Image">
+            </a>
+        </div>
+        <div class="image-item">
+            <img src="Media/Voxled.png" alt="Original Image">
+            <a href="https://voxledstudio.com/" target="_blank" class="image-link">
+                <img src="Media/Vermas.png" alt="Hovered Image">
+            </a>
+        </div>
+    </div>
+        
+    <div class="info"></div>
+    <!-- Sección del perfil profesional -->
+<section class="profile-section" id="services">
+    <h2 class="profile-title heading">PERFIL PROFESIONAL</h2>
+</section>
+
+<!-- Sección de los divs con imagen de fondo y contenido -->
+<section class="background-section">
+    <div class="content-container">
+        <div class="content-item">
+            <h3 class="content-title heading">SCRUM FUNDAMENTALS CERTIFIED</h3>
+            <img src="Media/Scrum.png" alt="Imagen 1" class="content-image">
+            <a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=927721" class="btn-ver-mas" target="_blank">Ver más</a>
+        </div>
+        <div class="content-item">
+            <h3 class="content-title heading">CURRICULUM VITAE</h3>
+            <img src="Media/CV.png" alt="Imagen 2" class="content-image">
+            <a href="Jeancarlo Flores Rojas - CV ENG.pdf" class="btn-ver-mas" target="_blank" download="Jeancarlo Flores CV">Descargar</a>
+        </div>
+        <div class="content-item">
+            <h3 class="content-title heading">TÉCNICO SUPERIOR EN DESARROLLO DE SOFTWARE</h3>
+            <img src="Media/Tecnico.png" alt="Imagen 3" class="content-image">
+            <a href="https://www.credly.com/earner/earned/badge/dc7961a7-abb8-4459-8041-8fea974d7d25" class="btn-ver-mas" target="_blank">Ver más</a>
+        </div>
+    </div>
+</section>
+<div class="info"></div>
+
+<div class="contact-container" id="contact">
+    <div class="icon-container">
+        <a href="https://wa.me/+50686068243" target="_blank">
+            <img src="Media/whatsapp.png" class="contact-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/jeancarlo-flores-ab221620b/" target="_blank">
+            <img src="Media/linkedin.png" class="contact-icon">
+        </a>
+        <a href="https://github.com/JeancaFR08" target="_blank">
+            <img src="Media/github.png" class="contact-icon">
+        </a>
+    </div>
+    <div class="form-container">
+        <form action="https://formspree.io/f/xgvwzarw" method="POST">
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Asunto:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Descripción:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-left">
+        <p> 📞 +506 8606 8243 <br>
+            📍 San José, Costa Rica <br>
+            📧 jeanca.f.r8@gmail.com</p>
+    </div>
+    <div class="footer-center">
+        <p>Copyright © 2024 Jeancarlo Flores Rojas. Todos los derechos reservados</p>
+    </div>
+    <div class="footer-right">
+        <img src="Media/Logo JCFR.png" alt="Logo de Jeancarlo" class="footer-logo">
+    </div>
+</footer>
+    <!-- Bootstrap JS y dependencias -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
